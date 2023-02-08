@@ -26,23 +26,25 @@
                 This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>Sign up <i>now</i> to get started.<br><br>You <i>know</i> you want to.
             </h2>
         </div>
+        <form id="contact" action="http://httpbin.org/post" method="post">
+            
+        
         <div class="form">
             <h2> Let's do this!</h2>
-            <form id="contact" action="./" method="post"></form>
             <div class="form-inside">
                 <div class="form-left">
                     <label for="first-name">First Name</label>
                     <input type = "text" id="first-name">
                     <label for="email">Email</label>
-                    <input type = "email" id="email">
+                    <input type = "email" id="email" required>
                     <label for="password">Password</label>
                     <input type = "password" id="password">
                 </div>
                 <div class="form-right">
                     <label for="last-name">Last Name</label>
-                    <input type = "text" id="last-name">
+                    <input type = "tel" id="last-name">
                     <label for="phone">Phone Number</label>
-                    <input type = "number" id="phone">
+                    <input type = "text" id="phone">
                     <label for="conf-password">Confirm Password</label>
                     <input type = "password" id="conf-password">
                 </div>
@@ -50,8 +52,9 @@
         </div>
         <div class="bottom">
             <button type="submit">Create Account</button>
-            <h4>Already have an account? <a href="./index.html" class="green">Log in</a></h4>
+            <h4>Already have an account? <a href="https://google.com" class="green">Log in</a></h4>
         </div>
+        </form>
     </div>
 </body>
 </html>

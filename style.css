@@ -96,8 +96,8 @@ i {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.bottom {
-    padding: 0 40px;
+div .bottom {
+    padding: 20px 40px;
 }
 
 button{
@@ -158,3 +158,9 @@ input{
     border: 2px solid rgb(240, 240, 240);
     border-radius: 3px;
 }
+
+input:focus{
+    outline: 1px solid rgb(28, 3, 255);
+    box-shadow: rgba(0, 0, 255, 0.144) 0px 7px 29px 0px;
+}
+
