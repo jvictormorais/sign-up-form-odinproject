@@ -1,0 +1,160 @@
+@font-face{
+    font-family:norse-bold;
+    src: url(./Fonts/Norse-Bold.otf);
+}
+
+:root{
+    --odin-green: #596D48;
+}
+
+body{
+    display: flex;
+}
+
+.left-side{
+    background-image: url(./images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.unsplash {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 9px;
+    
+    position: absolute;
+    bottom: 10px;
+    
+}
+
+.unsplash a {
+    color: inherit;
+}
+div .logo {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5) ;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 100px
+    
+}
+
+.logo-img {
+    height: 50px;
+    
+}
+
+h5 {
+    color: white;
+}
+
+.logo-text {
+    color: white;
+    font-family: norse-bold;
+    font-size: 60px;
+}
+
+.right-side{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color:  rgb(247, 247, 247);
+}
+
+.phrase {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    padding: 0 40px;
+}
+
+i {
+    font-style: italic;
+}
+
+.form h2{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.form {
+    background-color: white;
+    padding: 20px 40px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.bottom {
+    padding: 0 40px;
+}
+
+button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    color: white;
+    background-color: var(--odin-green);
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 10px;
+    padding: 15px 40px;
+    font-size: 16px;
+}
+
+h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.bottom a{
+    color: var(--odin-green);
+    font-weight: 600;
+}
+a:visited, a {
+    text-decoration: none;
+}
+
+.form-inside {
+    display: flex;
+    gap: 30px;
+    
+}
+
+.form-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-right{
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 9px;
+    font-weight: 600;
+    margin-bottom: 2px;
+    margin-top: 20px;
+    color: rgb(77, 77, 77);
+}
+
+input{
+    height: 20px;
+    border: 2px solid rgb(240, 240, 240);
+    border-radius: 3px;
+}

@@ -12,35 +12,46 @@
 <body>
     <div class="left-side">
         <div class="logo">
-            <img src="./images/odin-lined.png" alt="logo-img">
-            <h1>ODIN</h1>
+            <img class="logo-img"  src="./images/odin-lined.png" alt="logo-img">
+            <h1 class="logo-text">ODIN</h1>
         </div>
-        <h5>Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West
-        </a>on <a href="https://unsplash.com/">Unsplash</a></h5>
+        <div class="unsplash">
+            <h5>Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West
+            </a>on <a href="https://unsplash.com/">Unsplash</a></h5>
+        </div>
     </div>
     <div class="right-side">
-        <h2>
-            This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br><br>You know you want to.
-        </h2>
+        <div class="phrase">
+            <h2>
+                This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>Sign up <i>now</i> to get started.<br><br>You <i>know</i> you want to.
+            </h2>
+        </div>
         <div class="form">
             <h2> Let's do this!</h2>
             <form id="contact" action="./" method="post"></form>
-            <label for="first-name">First Name</label>
-            <input type = "text" id="first-name">
-            <label for="last-name">Last Name</label>
-            <input type = "text" id="last-name">
-            <label for="email">Email</label>
-            <input type = "email" id="email">
-            <label for="phone">Phone Number</label>
-            <input type = "number" id="phone">
-            <label for="password">Password</label>
-            <input type = "password" id="password">
-            <label for="conf-password">Confirm Password</label>
-            <input type = "password" id="conf-password">
+            <div class="form-inside">
+                <div class="form-left">
+                    <label for="first-name">First Name</label>
+                    <input type = "text" id="first-name">
+                    <label for="email">Email</label>
+                    <input type = "email" id="email">
+                    <label for="password">Password</label>
+                    <input type = "password" id="password">
+                </div>
+                <div class="form-right">
+                    <label for="last-name">Last Name</label>
+                    <input type = "text" id="last-name">
+                    <label for="phone">Phone Number</label>
+                    <input type = "number" id="phone">
+                    <label for="conf-password">Confirm Password</label>
+                    <input type = "password" id="conf-password">
+                </div>
+            </div>
         </div>
-        <button type="submit">Create Account</button>
-        <h4>Already have an account? <a href="./index.html" class="green">Log in</a></h4>
-
+        <div class="bottom">
+            <button type="submit">Create Account</button>
+            <h4>Already have an account? <a href="./index.html" class="green">Log in</a></h4>
+        </div>
     </div>
 </body>
 </html>
